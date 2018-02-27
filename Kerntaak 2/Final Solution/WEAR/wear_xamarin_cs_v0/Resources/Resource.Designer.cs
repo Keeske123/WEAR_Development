@@ -26,6 +26,9 @@ namespace wear_xamarin_cs_v0
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Id.agentWebView = global::wear_xamarin_cs_v0.Resource.Id.agentWebView;
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Layout.WebAuthenticationBroker = global::wear_xamarin_cs_v0.Resource.Layout.WebAuthenticationBroker;
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.String.ApplicationName = global::wear_xamarin_cs_v0.Resource.String.ApplicationName;
 		}
 		
 		public partial class Attribute
@@ -41,11 +44,30 @@ namespace wear_xamarin_cs_v0
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int agentWebView = 2130968576;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f020000
 			public const int Main = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int WebAuthenticationBroker = 2130837505;
 			
 			static Layout()
 			{
@@ -61,7 +83,10 @@ namespace wear_xamarin_cs_v0
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			public const int ApplicationName = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int app_name = 2130903041;
 			
 			static String()
 			{
