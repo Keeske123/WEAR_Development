@@ -1,0 +1,2 @@
+android.app.Application
+wear_xamarin_cs_v0.wear_xamarin_cs_v0
